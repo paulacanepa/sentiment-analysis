@@ -1,0 +1,14 @@
+name: sentiment-analysis-env
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - pandas
+  - keras==3.4.1
+  - tensorflow
+  - scikit-learn==1.5
+  - ipykernel
+  - transformers
